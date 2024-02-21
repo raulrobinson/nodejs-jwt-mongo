@@ -1,0 +1,31 @@
+{
+  "name": "nodejs-jwt-mongodb",
+  "version": "1.0.0",
+  "description": "Back-End for Login & Roles and JWT with NodeJS and MongoDB.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "node.js",
+    "express",
+    "jwt",
+    "login",
+    "registration",
+    "authentication",
+    "authorization",
+    "mongodb",
+    "mongoose"
+  ],
+  "author": "RASYSBOX | Raul Bolivar Navas",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-session": "^2.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^5.13.13"
+  }
+}
